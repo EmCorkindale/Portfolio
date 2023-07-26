@@ -1,0 +1,5 @@
+.nav {
+    background-color: #EEE; padding: 16px; display: flex;
+	align-items: center; justify-content: flex-end; border-bottom: 4px solid rgb(110, 159, 231)
+
+}
