@@ -1,5 +1,56 @@
 .nav {
-    background-color: #EEE; padding: 16px; display: flex;
-	align-items: center; justify-content: flex-end; border-bottom: 4px solid rgb(110, 159, 231)
+    background-color: rgba(8, 76, 107, 0.178); padding: 16px; display: flex;
+	align-items: center; justify-content: flex-end; border-bottom: 4px solid rgba(104, 132, 172, 0.363)
+}
+.nav h1 {
+    text-align: left;
+    color: #eee;
+    font-family: 'Open Sans';
+    font-weight: 100;
+}
+.nav > div {
+	margin-left: 32px; margin-right: 32px;
+    font-family: 'Roboto';
+}
 
+.grower { flex-grow: 1; }
+
+.nav > div {
+    margin-left: 32px; margin-right: 32px;
+}
+
+.grower { flex-grow: 1; 
+}
+nav {
+    float: left;
+    background-color: gold;
+    width: 30%;
+    height: 300px;
+    padding: 20px;
+}
+a:link {
+    color: #eee;
+    text-decoration: none;
+}
+a:visited {
+    color: #eee;
+
+}
+a:hover, a:active {
+    color: #eee;
+    background-color: #626e83;
+}
+body {
+    background-image: url('Animated-Shape.svg');
+    background-repeat: no-repeat;
+    min-height: 100%;
+    background-size: cover;
+    margin: 0;
+}
+.emIntro {
+    color: #eee;
+    position: center;
+}
+html{
+    height: 100%;
 }
