@@ -51,15 +51,29 @@ body {
     color: #eee;
     position: center;
     font-family: 'Roboto';
-    display: flex;
-    flex-wrap: wrap;
+    width: 800px;
+}
+.emIntro .title {
+    margin-top:  100px;
+    margin-bottom: 0px;
+    margin-left: 18px;
+    margin-right: 32px;
+    padding-top: 100px;
 }
 .emIntro div {
-    margin-top: 100px;
-    margin-left: 16px;
+    margin-left: 18px;
     margin-right: 32px;
 }
+.emIntro a:link {
+    background-color: #0e3523;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #eee;
 }
+
 html{
     height: 100%;
 }
